@@ -8,7 +8,7 @@
 
 bool Contains(vector<int> &vect, int num)
 {
-  int vectSize = vect.size();
+  size_t vectSize = vect.size();
   bool contains = false;
   bool continueSearch = true;
   int iVect = 0;
@@ -32,7 +32,7 @@ int solution(vector<int> &A) {
 
   int p = 0;
   vector<int> inA;
-  int sizeA = A.size();
+  size_t sizeA = A.size();
   for (int iA = 0; iA < sizeA; iA++)
   {
     int number = A.at(iA);
